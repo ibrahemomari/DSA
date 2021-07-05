@@ -158,7 +158,6 @@ let findShortest = (data) => {
   data.sort((a,b)=>(a.height - b.height));
   let shortestCharc=data[0].name;
   return shortestCharc;
-
 };
 
 /* ------------------------------------------------------------------------------------------------
