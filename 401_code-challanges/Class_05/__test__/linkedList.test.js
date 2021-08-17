@@ -54,11 +54,11 @@ describe('LinkedList', ()=> {
         newList.append(2);
         expect(newList.toString()).toEqual('{1}-->{2}-->NULL');
     });
-    it('toStrinf() not exisit',()=>{
-        let newList=new LinkedList;
-        newList.toString()
-        expect(newList.head).toEqual(null);
-    });
+    // it('toStrinf() not exisit',()=>{
+    //     let newList=new LinkedList;
+    //     newList.toString()
+    //     expect(newList.head).toEqual(null);
+    // });
 
 
 });
