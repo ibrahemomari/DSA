@@ -39,7 +39,7 @@ class LinkedList {
       newNode.next=current;
       this.head=newNode;
     }
-    while (current) {
+    while (current.next) {
       if(current.next.value==value){
         newNode.next=current.next;
         current.next=newNode;
@@ -73,6 +73,7 @@ class LinkedList {
     console.log(`the ${value} is not found in list`);
     return false;
   }
+
 
   toString() {
     let current = this.head;
