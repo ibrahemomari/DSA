@@ -1,16 +1,26 @@
-let numbers1 = [4, 8, 15, 16, 23, 42];
-let numbers2 = [-131, -82, 0, 27, 42, 68, 179];
-let numbers3 = [-131, -82, 0,];
+let array = [4, 8, 15, 16, 23, 42]
 
-const binarySearch = (arr, val) => {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === val) {
-      return i;
+const binarySearch = (list, item) => {
+  let low = 0
+  let high = list.length - 1
+
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2)
+    const guess = list[mid]
+
+    if (guess === item) {
+      return mid
+    }
+
+    if (guess > item) {
+      high = mid - 1
+    } else {
+      low = mid + 1
     }
   }
-  return -1;
-};
 
-console.log(binarySearch(numbers1, 15));
-console.log(binarySearch(numbers2, 42));
-console.log(binarySearch(numbers2, -82));
+  return -1 
+}
+
+
+console.log(binarySearch(array,20));
