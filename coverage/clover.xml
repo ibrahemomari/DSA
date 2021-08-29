@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1629646050914" clover="3.2.0">
-  <project timestamp="1629646050914" name="All files">
-    <metrics statements="547" coveredstatements="503" conditionals="138" coveredconditionals="102" methods="67" coveredmethods="65" elements="752" coveredelements="670" complexity="0" loc="547" ncloc="547" packages="9" files="18" classes="18"/>
+<coverage generated="1630239558702" clover="3.2.0">
+  <project timestamp="1630239558702" name="All files">
+    <metrics statements="864" coveredstatements="794" conditionals="269" coveredconditionals="205" methods="124" coveredmethods="120" elements="1257" coveredelements="1119" complexity="0" loc="864" ncloc="864" packages="14" files="34" classes="34"/>
     <package name="401_code-challanges.Class_05">
       <metrics statements="44" coveredstatements="40" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <file name="linkedList.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_05/linkedList.js">
@@ -546,7 +546,7 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="41" type="stmt"/>
         <line num="6" count="41" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
       </file>
       <file name="queue.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_11/queue.js">
         <metrics statements="26" coveredstatements="19" conditionals="6" coveredconditionals="2" methods="5" coveredmethods="3"/>
@@ -587,31 +587,411 @@
         <line num="14" count="40" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="14" type="stmt"/>
         <line num="16" count="14" type="stmt"/>
+        <line num="18" count="26" type="stmt"/>
         <line num="19" count="26" type="stmt"/>
         <line num="20" count="26" type="stmt"/>
-        <line num="21" count="26" type="stmt"/>
+        <line num="22" count="40" type="stmt"/>
         <line num="23" count="40" type="stmt"/>
-        <line num="24" count="40" type="stmt"/>
-        <line num="28" count="13" type="cond" truecount="1" falsecount="1"/>
-        <line num="30" count="13" type="stmt"/>
-        <line num="32" count="13" type="cond" truecount="2" falsecount="0"/>
-        <line num="33" count="4" type="stmt"/>
+        <line num="27" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="13" type="stmt"/>
+        <line num="31" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="34" count="13" type="stmt"/>
         <line num="35" count="13" type="stmt"/>
         <line num="36" count="13" type="stmt"/>
-        <line num="37" count="13" type="stmt"/>
-        <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="50" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="3" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
         <line num="57" count="2" type="stmt"/>
         <line num="58" count="2" type="stmt"/>
         <line num="59" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="401_code-challanges.Class_12">
+      <metrics statements="80" coveredstatements="71" conditionals="24" coveredconditionals="17" methods="15" coveredmethods="13"/>
+      <file name="animal.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_12/animal.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="animalShelter.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_12/animalShelter.js">
+        <metrics statements="26" coveredstatements="26" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="node.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_12/node.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="47" type="stmt"/>
+        <line num="6" count="47" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="queue.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_12/queue.js">
+        <metrics statements="21" coveredstatements="14" conditionals="6" coveredconditionals="2" methods="5" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="10" count="17" type="stmt"/>
+        <line num="11" count="17" type="stmt"/>
+        <line num="12" count="17" type="stmt"/>
+        <line num="16" count="18" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="12" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
-        <line num="62" count="2" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
+      </file>
+      <file name="stack.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_12/stack.js">
+        <metrics statements="28" coveredstatements="26" conditionals="10" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="41" type="stmt"/>
+        <line num="8" count="41" type="stmt"/>
+        <line num="9" count="41" type="stmt"/>
+        <line num="13" count="46" type="stmt"/>
+        <line num="14" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="18" count="26" type="stmt"/>
+        <line num="19" count="26" type="stmt"/>
+        <line num="20" count="26" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="23" count="46" type="stmt"/>
+        <line num="27" count="22" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="22" type="stmt"/>
+        <line num="31" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="34" count="22" type="stmt"/>
+        <line num="35" count="22" type="stmt"/>
+        <line num="36" count="22" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="401_code-challanges.Class_13">
+      <metrics statements="57" coveredstatements="57" conditionals="25" coveredconditionals="23" methods="7" coveredmethods="7"/>
+      <file name="bracket.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_13/bracket.js">
+        <metrics statements="27" coveredstatements="27" conditionals="15" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="125" type="cond" truecount="5" falsecount="0"/>
+        <line num="10" count="35" type="stmt"/>
+        <line num="11" count="90" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="28" type="stmt"/>
+        <line num="19" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+      <file name="node.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_13/node.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="52" type="stmt"/>
+        <line num="6" count="52" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="stack.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_13/stack.js">
+        <metrics statements="27" coveredstatements="27" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="5"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="19" type="stmt"/>
+        <line num="8" count="19" type="stmt"/>
+        <line num="9" count="19" type="stmt"/>
+        <line num="13" count="51" type="stmt"/>
+        <line num="14" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="32" type="stmt"/>
+        <line num="16" count="32" type="stmt"/>
+        <line num="18" count="19" type="stmt"/>
+        <line num="19" count="19" type="stmt"/>
+        <line num="20" count="19" type="stmt"/>
+        <line num="22" count="51" type="stmt"/>
+        <line num="23" count="51" type="stmt"/>
+        <line num="27" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="31" type="stmt"/>
+        <line num="31" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="22" type="stmt"/>
+        <line num="34" count="31" type="stmt"/>
+        <line num="35" count="31" type="stmt"/>
+        <line num="36" count="31" type="stmt"/>
+        <line num="41" count="245" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="245" type="stmt"/>
+        <line num="43" count="245" type="stmt"/>
+        <line num="49" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="7" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="401_code-challanges.Class_14">
+      <metrics statements="45" coveredstatements="44" conditionals="14" coveredconditionals="11" methods="7" coveredmethods="7"/>
+      <file name="node.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_14/node.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="6" count="26" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="stack.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_14/stack.js">
+        <metrics statements="42" coveredstatements="41" conditionals="14" coveredconditionals="11" methods="6" coveredmethods="6"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="14" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="20" count="16" type="stmt"/>
+        <line num="22" count="25" type="stmt"/>
+        <line num="23" count="25" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="40" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="401_code-challanges.Class_15">
+      <metrics statements="63" coveredstatements="55" conditionals="30" coveredconditionals="22" methods="13" coveredmethods="13"/>
+      <file name="binarySearchTree.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_15/binarySearchTree.js">
+        <metrics statements="30" coveredstatements="22" conditionals="18" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="34" type="stmt"/>
+        <line num="12" count="34" type="stmt"/>
+        <line num="13" count="65" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="20" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="19" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="28" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="31" count="29" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+      <file name="binaryTree.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_15/binaryTree.js">
+        <metrics statements="29" coveredstatements="29" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="20" type="stmt"/>
+        <line num="29" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="43" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="12" type="stmt"/>
+        <line num="46" count="20" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+      <file name="node.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_15/node.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="35" type="stmt"/>
+        <line num="6" count="35" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="401_code-challanges.Class_16">
+      <metrics statements="72" coveredstatements="64" conditionals="38" coveredconditionals="30" methods="15" coveredmethods="15"/>
+      <file name="binarySearchTree.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_16/binarySearchTree.js">
+        <metrics statements="30" coveredstatements="22" conditionals="18" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="11" count="34" type="stmt"/>
+        <line num="12" count="34" type="stmt"/>
+        <line num="13" count="65" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="20" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="19" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="28" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="31" count="29" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+      <file name="binaryTree.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_16/binaryTree.js">
+        <metrics statements="38" coveredstatements="38" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="28" count="20" type="stmt"/>
+        <line num="29" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="43" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="12" type="stmt"/>
+        <line num="46" count="20" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+      </file>
+      <file name="node.js" path="/home/ibrahem0_0omari/DSA/401_code-challanges/Class_16/node.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="40" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="40" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
     </package>
     <package name="javascript.code-challenges.reverse-ll">

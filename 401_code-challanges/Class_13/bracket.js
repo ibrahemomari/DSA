@@ -23,7 +23,7 @@ function validateBrackets(string) {
   }
 }
 
-let string1 = "{}";
+let string1 = "{()[]}";
 let string2 = "{}(){}";
 let string3 = "()[[Extra Characters]]";
 let string4 = "(){}[[]]";
