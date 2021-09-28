@@ -34,15 +34,6 @@ describe("Graph", () => {
     test.addDirectedEdge(four, six);
     test.addDirectedEdge(four, eight);
     test.addDirectedEdge(six, eight);
-    expect(Array.from(test.depthFirst(one))).toEqual([
-      one,
-      two,
-      four,
-      five,
-      six,
-      eight,
-      three,
-      seven,
-    ]);
+    expect(test.depthFirst(one)).toEqual("A,B,D,E,F,H,C,G,");
   });
 });

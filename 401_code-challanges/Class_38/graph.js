@@ -99,33 +99,41 @@ class Graph {
     travers(node,visitedNode);
     let result='';
     for (const iterator of visitedNode) {
-      result+=iterator.value+" , ";
+      result+=iterator.value+",";
     }
     return result;
   }
 }
+let test = new Graph();
+let one = new Vertex("A");
+    let two = new Vertex("B");
+    let three = new Vertex("C");
+    let four = new Vertex("D");
+    let five = new Vertex("E");
+    let six = new Vertex("F");
+    let seven = new Vertex("G");
+    let eight = new Vertex("H");
 
-const myGraph = new Graph();
-    const zero = new Vertex(0);
-    const one = new Vertex(1);
-    const two = new Vertex(2);
-    const three = new Vertex(3);
-    const four = new Vertex(4);
-    const five = new Vertex(5);
+    test.addVertex(one);
+    test.addVertex(two);
+    test.addVertex(three);
+    test.addVertex(four);
+    test.addVertex(five);
+    test.addVertex(six);
+    test.addVertex(seven);
+    test.addVertex(eight);
 
-    myGraph.addVertex(zero);
-    myGraph.addVertex(one);
-    myGraph.addVertex(two);
-    myGraph.addVertex(three);
-    myGraph.addVertex(four);
-    myGraph.addVertex(five);
+    test.addDirectedEdge(one, two);
+    test.addDirectedEdge(one, four);
+    test.addDirectedEdge(two, four);
+    test.addDirectedEdge(two, three);
+    test.addDirectedEdge(two, seven);
+    test.addDirectedEdge(four, five);
+    test.addDirectedEdge(four, six);
+    test.addDirectedEdge(four, eight);
+    test.addDirectedEdge(six, eight);
 
-    myGraph.addDirectedEdge(zero, two);
-    myGraph.addDirectedEdge(two, four);
-    myGraph.addDirectedEdge(two, three);
-    myGraph.addDirectedEdge(four, five);
-
-    console.log(myGraph.depthFirst(two));
+    console.log(test.depthFirst(one));
 
 
 
